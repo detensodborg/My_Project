@@ -879,7 +879,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1988891872}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 4
+  m_MaxValue: 5
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -1363,6 +1363,7 @@ MonoBehaviour:
   credits: 0
   exp: 0
   pointsText: {fileID: 430927071}
+  exp_slider: {fileID: 894437443}
 --- !u!4 &1580586589
 Transform:
   m_ObjectHideFlags: 0
