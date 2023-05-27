@@ -9,6 +9,8 @@ public class Game_manager : MonoBehaviour
     public int credits = 0;
     public int exp = 0;
     public Text pointsText;
+    public Text current_exp_text;
+    public Text level_text;
     public Slider exp_slider;
     private int[] exp_levels = new int[5];
     private int current_level;
@@ -30,6 +32,7 @@ public class Game_manager : MonoBehaviour
         if (exp >= exp_levels[current_level])
         {
             current_level++;
+            level_text.text = current_level.ToString();
             exp_slider.maxValue = exp_levels[current_level];
             exp_slider.minValue = exp_levels[current_level-1];
 

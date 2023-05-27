@@ -16,6 +16,8 @@ public class PointSystem : MonoBehaviour
             game_manager.credits++;
             game_manager.pointsText.text = game_manager.credits.ToString();
             game_manager.exp++;
+            game_manager.current_exp_text.text = game_manager.exp.ToString();
+
 
         }
     }
