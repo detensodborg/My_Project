@@ -3,21 +3,20 @@ using UnityEngine.UI;
 
 public class PointSystem : MonoBehaviour
 {
-    public Text pointsText;
-
-    private int points = 0;
+    public Game_manager game_manager;
 
     void Start()
     {
-        pointsText.text = points.ToString();
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Wall"))
         {
-            points++;
-            pointsText.text = points.ToString();
+            game_manager.credits++;
+            game_manager.pointsText.text = game_manager.credits.ToString();
+            game_manager.exp++;
+
         }
     }
 }
