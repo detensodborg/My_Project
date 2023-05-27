@@ -17,7 +17,6 @@ public class WallOpacity : MonoBehaviour
         wallMaterials = new Material[wallRenderers.Length];
         initialAlphas = new float[wallRenderers.Length];
 
-        //transparentShader = Shader.Find("Transparent/Diffuse");
         opaqueShader = Shader.Find("Standard");
 
         for (int i = 0; i < wallRenderers.Length; i++)
@@ -74,14 +73,12 @@ public class WallOpacity : MonoBehaviour
 
             if (isClosest)
             {
-                wallMaterials[i].shader = transparentShader;
                 Color color = wallMaterials[i].color;
                 color.a = Mathf.Lerp(color.a, 0.3f, Time.deltaTime);
                 wallMaterials[i].SetColor("_Color", color);
             }
             else
             {
-                wallMaterials[i].shader = opaqueShader;
                 Color color = wallMaterials[i].color;
                 color.a = Mathf.Lerp(color.a, initialAlphas[i], Time.deltaTime);
                 wallMaterials[i].SetColor("_Color", color);
