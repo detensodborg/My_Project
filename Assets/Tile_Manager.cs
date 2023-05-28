@@ -26,7 +26,7 @@ public class Tile_Manager : MonoBehaviour
         
     }
 
-    private bool is_on = false;
+    private bool is_on = true;
     public void ToggleGrid()
     {
         is_on = !is_on;
