@@ -3105,7 +3105,7 @@ GameObject:
   - component: {fileID: 2141038844}
   - component: {fileID: 2141038843}
   - component: {fileID: 2141038842}
-  - component: {fileID: 2141038845}
+  - component: {fileID: 2141038846}
   m_Layer: 5
   m_Name: DeluxeCoin_Button
   m_TagString: Untagged
@@ -3216,7 +3216,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2141038840}
   m_CullTransparentMesh: 1
---- !u!114 &2141038845
+--- !u!114 &2141038846
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
