@@ -1687,6 +1687,7 @@ GameObject:
   - component: {fileID: 1504841227}
   - component: {fileID: 1504841230}
   - component: {fileID: 1504841229}
+  - component: {fileID: 1504841231}
   m_Layer: 5
   m_Name: Background_Credits
   m_TagString: Untagged
@@ -1809,6 +1810,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1504841230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504841225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e12e2be5164e5b4ca726de79e61e5d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1504841231
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
