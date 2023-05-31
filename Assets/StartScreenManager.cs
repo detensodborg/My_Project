@@ -5,6 +5,6 @@ public class StartScreenManager : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("PocketLife");
+        SceneManager.LoadScene("PocketLife_Character");
     }
 }

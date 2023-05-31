@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/PocketLife_StartMenu.unity
+    path: Assets/Scenes/PocketLife_Character.unity
     guid: 8be5e051671392f4abec5b51834706a6
   - enabled: 1
     path: Assets/Scenes/PocketLife.unity
