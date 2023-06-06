@@ -327,7 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcfb0d2a8288db545ad11cc565098dc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 0}
+  camera: {fileID: 1244594728}
   wallRenderers: []
   maxDistance: 10
   transparentShader: {fileID: 0}
@@ -1072,7 +1072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcfb0d2a8288db545ad11cc565098dc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 0}
+  camera: {fileID: 1244594728}
   wallRenderers: []
   maxDistance: 10
   transparentShader: {fileID: 0}
@@ -1459,7 +1459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcfb0d2a8288db545ad11cc565098dc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 0}
+  camera: {fileID: 1244594728}
   wallRenderers: []
   maxDistance: 10
   transparentShader: {fileID: 0}
@@ -2536,7 +2536,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcfb0d2a8288db545ad11cc565098dc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 0}
+  camera: {fileID: 1244594728}
   wallRenderers: []
   maxDistance: 10
   transparentShader: {fileID: 0}
