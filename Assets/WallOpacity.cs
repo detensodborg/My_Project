@@ -9,7 +9,6 @@ public class WallOpacity : MonoBehaviour
     private Material[] wallMaterials;
     private float[] initialAlphas;
 
-    public Shader transparentShader;
     private Shader opaqueShader;
 
     void Start()

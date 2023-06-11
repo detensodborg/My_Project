@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -229,7 +229,6 @@ GameObject:
   - component: {fileID: 184975791}
   - component: {fileID: 184975790}
   - component: {fileID: 184975789}
-  - component: {fileID: 184975792}
   m_Layer: 0
   m_Name: Wall_2
   m_TagString: Wall
@@ -246,7 +245,7 @@ Transform:
   m_GameObject: {fileID: 184975787}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 12.3, z: -0.492}
-  m_LocalScale: {x: 1, y: 25, z: -0.01}
+  m_LocalScale: {x: 1, y: 25, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1971434619}
@@ -285,7 +284,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3deb3a1c992541f469a78c046bba0700, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -315,22 +314,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184975787}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &184975792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 184975787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcfb0d2a8288db545ad11cc565098dc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  camera: {fileID: 1244594728}
-  wallRenderers: []
-  maxDistance: 10
-  transparentShader: {fileID: 0}
 --- !u!1 &235648960
 GameObject:
   m_ObjectHideFlags: 0
@@ -974,7 +957,6 @@ GameObject:
   - component: {fileID: 487445844}
   - component: {fileID: 487445843}
   - component: {fileID: 487445842}
-  - component: {fileID: 487445845}
   m_Layer: 0
   m_Name: Wall_1
   m_TagString: Wall
@@ -991,7 +973,7 @@ Transform:
   m_GameObject: {fileID: 487445840}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 12.3, z: 0.5}
-  m_LocalScale: {x: 1, y: 25, z: -0.01}
+  m_LocalScale: {x: 1, y: 25, z: 0.01}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1971434619}
@@ -1030,7 +1012,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3deb3a1c992541f469a78c046bba0700, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1060,22 +1042,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487445840}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &487445845
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487445840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcfb0d2a8288db545ad11cc565098dc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  camera: {fileID: 1244594728}
-  wallRenderers: []
-  maxDistance: 10
-  transparentShader: {fileID: 0}
 --- !u!1 &559990334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1361,7 +1327,6 @@ GameObject:
   - component: {fileID: 860614612}
   - component: {fileID: 860614611}
   - component: {fileID: 860614610}
-  - component: {fileID: 860614613}
   m_Layer: 0
   m_Name: Wall_4
   m_TagString: Wall
@@ -1378,7 +1343,7 @@ Transform:
   m_GameObject: {fileID: 860614608}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.5, y: 12.3, z: 0}
-  m_LocalScale: {x: -0.01, y: 25, z: 1}
+  m_LocalScale: {x: 0.01, y: 25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1971434619}
@@ -1417,7 +1382,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3deb3a1c992541f469a78c046bba0700, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1447,22 +1412,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860614608}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &860614613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 860614608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcfb0d2a8288db545ad11cc565098dc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  camera: {fileID: 1244594728}
-  wallRenderers: []
-  maxDistance: 10
-  transparentShader: {fileID: 0}
 --- !u!1 &894437441
 GameObject:
   m_ObjectHideFlags: 0
@@ -2438,7 +2387,6 @@ GameObject:
   - component: {fileID: 1581188344}
   - component: {fileID: 1581188343}
   - component: {fileID: 1581188342}
-  - component: {fileID: 1581188345}
   m_Layer: 0
   m_Name: Wall_3
   m_TagString: Wall
@@ -2455,7 +2403,7 @@ Transform:
   m_GameObject: {fileID: 1581188340}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 12.3, z: 0}
-  m_LocalScale: {x: -0.01, y: 25, z: 1}
+  m_LocalScale: {x: 0.01, y: 25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1971434619}
@@ -2494,7 +2442,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3deb3a1c992541f469a78c046bba0700, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2524,22 +2472,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1581188340}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1581188345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1581188340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcfb0d2a8288db545ad11cc565098dc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  camera: {fileID: 1244594728}
-  wallRenderers: []
-  maxDistance: 10
-  transparentShader: {fileID: 0}
 --- !u!1 &1642172710
 GameObject:
   m_ObjectHideFlags: 0
@@ -3183,6 +3115,7 @@ GameObject:
   - component: {fileID: 1971434618}
   - component: {fileID: 1971434617}
   - component: {fileID: 1971434616}
+  - component: {fileID: 1971434621}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -3272,6 +3205,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1971434621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971434615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcfb0d2a8288db545ad11cc565098dc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 1244594728}
+  wallRenderers:
+  - {fileID: 487445843}
+  - {fileID: 184975790}
+  - {fileID: 1581188343}
+  - {fileID: 860614611}
+  maxDistance: 10
 --- !u!1 &1988891871
 GameObject:
   m_ObjectHideFlags: 0
@@ -3383,7 +3335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7316f557871f18848b8d0ae2f74bf0c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundTransform: {fileID: 0}
+  groundTransform: {fileID: 1971434619}
   movementSpeed: 1
   idleTimeThreshold: 300
 --- !u!23 &1993440281
