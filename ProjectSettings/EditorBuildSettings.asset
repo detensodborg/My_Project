@@ -6,11 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/PocketLife_StartMenu.unity
+    guid: e32b0b37a78263a468eda8c8bb0f7166
+  - enabled: 1
     path: Assets/Scenes/PocketLife_Character.unity
     guid: 8be5e051671392f4abec5b51834706a6
   - enabled: 1
     path: Assets/Scenes/PocketLife.unity
     guid: 3d9dc3fd31a49984e80ba0446a3ab905
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 1338c7a558f2e334e84bbc5739b1ee9b
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: 0d99907c5df40b74387a5e1766d339c1, type: 2}
