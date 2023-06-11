@@ -14,7 +14,7 @@ public class Tile_Manager : MonoBehaviour
     {
         for (int x = 0; x < grid_size; x++) {
             for (int z = 0; z < grid_size; z++) {
-                tiles[new Vector2(x,z)] = Instantiate(tile_prefab, new Vector3(x-(grid_size/2)+0.5f, 1, z - (grid_size / 2)+0.5f), Quaternion.identity);
+                tiles[new Vector2(x,z)] = Instantiate(tile_prefab, new Vector3(x-(grid_size/2), 0.05f, z - (grid_size / 2)), Quaternion.identity);
             }
         }
         ToggleGrid();

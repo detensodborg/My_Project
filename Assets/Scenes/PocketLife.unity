@@ -215,8 +215,77 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &111303264
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3988515314900652570, guid: d18e373579f774d4e9efa416c6e489d5,
+        type: 3}
+      propertyPath: m_Name
+      value: Nightstand_Med_Kaffemaskine_3D_Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328483878188320928, guid: d18e373579f774d4e9efa416c6e489d5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328483878188320928, guid: d18e373579f774d4e9efa416c6e489d5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328483878188320928, guid: d18e373579f774d4e9efa416c6e489d5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328483878188320928, guid: d18e373579f774d4e9efa416c6e489d5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328483878188320928, guid: d18e373579f774d4e9efa416c6e489d5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328483878188320928, guid: d18e373579f774d4e9efa416c6e489d5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328483878188320928, guid: d18e373579f774d4e9efa416c6e489d5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328483878188320928, guid: d18e373579f774d4e9efa416c6e489d5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328483878188320928, guid: d18e373579f774d4e9efa416c6e489d5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328483878188320928, guid: d18e373579f774d4e9efa416c6e489d5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4328483878188320928, guid: d18e373579f774d4e9efa416c6e489d5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d18e373579f774d4e9efa416c6e489d5, type: 3}
 --- !u!1 &184975787
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +298,7 @@ GameObject:
   - component: {fileID: 184975791}
   - component: {fileID: 184975790}
   - component: {fileID: 184975789}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Wall_2
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -806,7 +875,7 @@ GameObject:
   - component: {fileID: 487445844}
   - component: {fileID: 487445843}
   - component: {fileID: 487445842}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Wall_1
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -1176,7 +1245,7 @@ GameObject:
   - component: {fileID: 860614612}
   - component: {fileID: 860614611}
   - component: {fileID: 860614610}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Wall_4
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -1775,7 +1844,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1417338984}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1580586590}
+        m_TargetAssemblyTypeName: Tile_Manager, Assembly-CSharp
+        m_MethodName: ToggleGrid
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1417338984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2084,7 +2165,7 @@ RectTransform:
   - {fileID: 2141038841}
   - {fileID: 559990335}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2157,7 +2238,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1580586587
 GameObject:
@@ -2208,7 +2289,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1580586590
 MonoBehaviour:
@@ -2236,7 +2317,7 @@ GameObject:
   - component: {fileID: 1581188344}
   - component: {fileID: 1581188343}
   - component: {fileID: 1581188342}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Wall_3
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -2406,7 +2487,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1580586590}
         m_TargetAssemblyTypeName: Tile_Manager, Assembly-CSharp
-        m_MethodName: ToggleGrid
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2415,7 +2496,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
 --- !u!114 &1642172713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2491,13 +2572,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1644891389}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.5, y: 0, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1244594729}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1665815538
 GameObject:
@@ -3043,7 +3124,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971434615}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.5, y: 0, z: -0.5}
   m_LocalScale: {x: 6, y: 0.1, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3250,7 +3331,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1993440284
 SphereCollider:
